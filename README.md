@@ -1,12 +1,8 @@
-title: "Morph-Tags & *Authorship(s)*: <br>DH@NAPS_2025"
+Title: "Morph-Tags & *Authorship(s)*
 
-author: 
-  - name: Mark G. Bilby
-    orcid: https://orcid.org/0000-0003-0100-6634
-    affiliations: Principal, Clavis Consulting, LLC, Kansas
-  - name: Jack Bull
-    orcid: https://orcid.org/0000-0003-4606-239X
-    affiliations: Lecturer in Biblical Studies, St. Mary's University, Twickenham, London
+Authors: 
+  - Mark G. Bilby, [orcid](https://orcid.org/0000-0003-0100-6634), Principal, Clavis Consulting, LLC, Kansas
+  - Jack Bull, [orcid](https://orcid.org/0000-0003-4606-239X), Lecturer in Biblical Studies, St. Mary's University, Twickenham, London
 
 Conference: North American Patristics Society
 
