@@ -1,2 +1,9 @@
-# NAPS25DH
-presentation given at the 2025 North American Patristics Society meeting in Chicago
+- Title: Morphological Tagging and Discerning Authorship
+- Authors: Mark G. Bilby & Jack Bull
+- Conference: North American Patristics Society
+- Section: Digital Humanities Practicalities
+- Format: Quarto markdown (qmd)
+- Helpers: scss, reveal.js
+- Outputs: html
+- Date: 2025-05-22
+- License: CC BY-SA 4.0
