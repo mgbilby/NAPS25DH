@@ -22,4 +22,4 @@ Acknowledgements: Quarto template repurposed from that of A. von Stockhausen @ B
 
 [![DOI](https://zenodo.org/badge/989844857.svg)](https://doi.org/10.5281/zenodo.15508230)
 
-Citation: Bilby, Mark G., and Jack Bull. "Morph-Tags & *Authorship(s)*." Presented at the North American Patristics Society, Chicago, IL, May 22, 2025. doi: [10.5281/zenodo.15508230](https://doi.org/10.5281/zenodo.15508230).
+Citation: Bilby, Mark G., and Jack Bull. "Morph-Tags & *Authorship(s)*." Presented at the North American Patristics Society, Chicago, IL, May 22, 2025. doi: [10.5281/zenodo.15508230](https://doi.org/10.5281/zenodo.15508230)
