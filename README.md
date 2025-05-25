@@ -1,8 +1,9 @@
 Title: "Morph-Tags & *Authorship(s)*"
 
-Authors: 
-  - Mark G. Bilby, [orcid](https://orcid.org/0000-0003-0100-6634), Principal, Clavis Consulting, LLC, Kansas
-  - Jack Bull, [orcid](https://orcid.org/0000-0003-4606-239X), Lecturer in Biblical Studies, St. Mary's University, Twickenham, London
+Authors:
+  - Mark G. Bilby, [![ORCID logo](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0000-0003-0100-6634), Principal, Clavis Consulting, LLC, Kansas
+  - Jack Bull, [![ORCID logo](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png)](https://orcid.org/0000-0003-4606-239X), Lecturer in Biblical Studies, St. Mary's University, Twickenham, London
+
 
 Conference: North American Patristics Society
 
