@@ -1,0 +1,238 @@
+---
+title: "Morph-Tags & *Authorship(s)*: <br>DH@NAPS_2025"
+
+author: 
+  - name: Mark G. Bilby
+    orcid: https://orcid.org/0000-0003-0100-6634
+    affiliations: Principal, Clavis Consulting, LLC, Kansas
+  - name: Jack Bull
+    orcid: https://orcid.org/0000-0003-4606-239X
+    affiliations: Lecturer in Biblical Studies, St. Mary's University, Twickenham, London
+
+date: 2025-05-22
+date-format: "YYYY-MM-DD"
+format: 
+  revealjs:
+    output-file: index
+    theme: [default, ccllc.scss]
+    slide-number: true 
+    show-slide-number: all
+    navigation-mode: vertical
+    controls: auto
+    controls-layout: edges
+    pause: true
+    touch: true
+    preview-links: true
+    embed-resources: true
+    footer: |
+        Mark G. Bilby & Jack Bull: "Morph-Tags & *Authorship(s)*: <br>DH@NAPS_2025" -- North American Patristics Society -- 2025 Annual Meeting -- Digital Humanities Section
+    title-slide-attributes:
+        data-background-image: images/by-sa.png
+        data-background-size: 8% auto, 15% auto, 10% auto
+        data-background-position: bottom 5% right 1%, top 1% left 1%, bottom 15% right 1%
+revealjs-plugins:
+  - pointer
+---
+
+# Ancient Greek Morphological Tagging: <br>Past & Present
+<br><br>
+
+*Nota bene:* <br>
+
+  - Quarto template .qmd/.js/.scss files based on those of AvS @ BBAW. Danke!
+  - the following overview is not intended to be comprehensive
+  - please let us know of corrections, additional projects & details!
+
+## CCAT / CATSS (1977-)
+<br><br>
+*Summary*
+
+  - Center for Computer Analysis of Texts (CCAT)
+  - Computer Assisted Tools for Septuagint/Scriptural Studies (CATSS)
+  - housed at University of Pennsylvania; NEH funded (1978-)
+  - led by Robert Kraft, co-directed by Emmanuel Tov and Bill Adler, w/ John Abercrombie
+  - collabs w/ Priceton's IAS; IOSCS; TLG (Brunner); SBL; CNRS; & GRAMCORD concordance (P. Miller)
+  - D. Packard's "IBEX" language; 7-bit ASCII betacode; one row per token and tag(s); LXX & MT alignments
+
+
+## CCAT's Commercial Spinoffs (1992-)
+<br><br>
+*Summary*
+
+  - context: Tim & Barbara Friberg w/ SIL/UBS publish Analytical GNT (1981-)
+  - Commercial Apps: BibleWorks (1992-); Logos (1992-); Accordance (1994-)
+  - Software evolved from ASCII (early) to Unicode encoding (2000s)
+  - partnerships w/ academic organizations
+    - Jean-Noel Aletti & Andrei Geniusz at Pontifical Biblical Institute
+    - tagging of Josephus, Apostolic Fathers, etc (2003-)
+  - *thank you to Michael Bushnell for sharing BGM datasets for our research!*
+
+## Thesaurus Linguae Graecae (2006-)
+<br><br>
+*Summary*
+
+  - TLG started in 1972 to build its digital Greek corpus
+  - late 2006 released lemma + morphological search in new interface
+  - 80% coverage of 80M tokens = ~64M lemmatized & morph-tagged words
+  - coverage % increased as corpus has grown; today >125M words
+
+## PROIEL Treebanks (2007-)
+<br><br>
+*Summary*
+
+  - Old Indo-European Bible Translations, including ancient Greek (2007-)
+  - 277K Greek word tokens
+  - mapped morpho-syntactical structural patterns across languages using the LXX and NT as the base text and intercultural point of connection
+  - later contributed to foundational ancient Greek data for Universal Dependencies (2017-)
+
+*Sources*
+
+  - data_code in {{< fa brands github >}} [proiel](https://github.com/proiel)
+  - data_archived in {{< ai zenodo >}} doi: [10.5281/zenodo.591393](https://doi.org/10.5281/zenodo.591393)
+
+## ADGT 1.0 (2009-)
+<br><br>
+*Summary*
+
+  - AGDT 1.0 standards and 190k word corpus released (2009-)
+  - co-led by D. Bamman, F. Mambrini, & G. Crane, for Perseus Project @ Tufts
+  - Morpheus automated parser (2005-) developed; also used by TLG
+  - Morpheus publicly released as open source (2018-)
+
+*Sources*
+
+  - AGDT 1.0 Guidelines in archival pdf @ [Perseids.org](https://static.perseids.org/guidelines-syntactic-annotation-greek-1-1.pdf)
+  - Morpheus open source code in {{< fa brands github >}} [perseids-tools](https://github.com/perseids-tools/morpheus)
+
+## ADGT 2.0 (2014-)
+<br><br>
+*Summary*
+
+  - AGDT 2.0 standards released by Giuseppe Celano @ Leipzig (2014-)
+  - Arethusa treebank editor (Almas, Beaulieu, Höflechner, Lichtensteiner, Sirk) released (2014-)
+  - AGDT (500k) PROIEL (276k), and Gorman (240k) trees added to Universal Dependencies (2017-), integrating with Stanford (2006-), and Google (2013-) Dependencies
+  - Vanessa Gorman's Treebanks; pre-morph-parsed, human-checked; 550k+ tokens released (2019-)
+
+*Sources*
+
+  - AGDT 2.0 Guidelines in {{< fa brands github >}} [PerseusDL](https://github.com/PerseusDL/treebank_data/edit/master/AGDT2/guide)
+  - AGDT_tree_data_archived in {{< fa brands github >}} [PerseusDL](https://github.com/PerseusDL/treebank_data) 
+  - Gorman_tree_data_archived in {{< fa brands github >}} [vgorman1](https://github.com/vgorman1/Greek-Dependency-Trees) 
+  - Gorman_data_paper in *JOHD* @ doi: [10.5534/johd.13](https://doi.org/10.5334/johd.13)
+
+## CLTK (2014-)
+<br><br>
+*Summary*
+
+  - Classical Languages Toolkit Python package; NLTK for Classics
+  - led by Kyle Johnson, Patrick Burns, et al; advised by Crane et al
+  - backoff approach to lemmatization and morphological tagging
+  - longform morphological tagging
+  - releases on Github & Zenodo from 2015 onward
+
+*Sources*
+
+  - CLTK docs & sourcecode in {{< fa brands github >}} [cltk](https://github.com/cltk/cltk)
+ 
+## Diorisis Ancient Greek Corpus (2018-)
+<br><br>
+*Summary*
+
+  - led by Alessandro Vatri & Barbara McGillivray @ KCL
+  - 10M words, 820 works (2018-)
+  - from Beta Code to Unicode; 
+  - automated lemmatizing and morphological parsing
+  - longform morphological annotation similar to UD FEATS field
+  - tagging structure similar to TEI-XML
+
+*Sources*
+
+  - annotation_scripts in {{< fa brands github >}} [alevatri](https://github.com/alevatri/diorisis) 
+  - Diorisis Search software at [Diorsis Search 3.3](https://www.crs.rm.it/diorisissearch/) 
+  - data_archived in Figshare @ doi: [m9.figshare.6187256](https://doi.org/10.6084/m9.figshare.6187256)
+  - data_paper in *RDJHSS* @ doi: [10.1163/24523666-01000013](https://doi.org/10.1163/24523666-01000013)
+
+## Pedalion (2019-) and GLAUx (2021-)
+<br><br>
+*Summary*
+
+  - led by Toon van Hall and Alek Keersmaekers @ KU Leuven
+  - initial Pedalion release, 119K words (2019)
+  - GLAUx demo releases, 13M-27M words (2021)
+  - v1.0 release, 20M words, works (2024-04)
+  - largely machine-automated w/ human supervised checks and refinements
+  - TEI-XML sources; TEI-XML treebank outputs w/ UTF-8 NFD encoding
+
+*Sources*
+
+  - data_archived in {{< fa brands github >}} [alekkeersmaekers/glaux](https://github.com/alekkeersmaekers/glaux)
+  - data_paper in *ACL* @ doi[10.18653/v1/2021.lchange-1.6](https://doi.org/10.18653/v1/2021.lchange-1.6)
+
+## Opera Graeca Adnotata (OGA) (2023-)
+<br><br>
+*Summary*
+
+  - led by Giuseppe Celano and team @ Leipzig
+  - machine-automated w/ human supervised checks and refinements
+  - v0.1.0 release, 34M words, 1700 works (2024-03)
+  - v0.2.0 release, 40M words, 2000 works (2024-11); Patristic Text Archive works now included
+  - TEI-XML sources; Paula XML UTF-8 NFD outputs w/ numerous standoff annotations, akin to Text Fabric
+  - distilled and location-enriched in one CoNNL-U file per work by Bilby, on which see below
+
+*Sources*
+
+  - annotation_docs {{< fa brands github >}} [OperaGraecaAdnotata/OGA](https://github.com/OperaGraecaAdnotata/OGA)
+  - data_archived in {{< ai zenodo >}} doi: [10.5281/zenodo.14206061](https://doi.org/10.5281/zenodo.14206061)
+  - data_paper in ar*X*iv @ doi: [2404.00739](https://arxiv.org/abs/2404.00739)
+
+## Some Finding Aids & Entry Level Corpora
+<br><br>
+
+  > Bilby, M.G. (2024). "OGA v0.2.0 (2024-11-24) and GLAUx v1.0 (2024-04-09) Compared (0.1)." Zenodo. [doi: 10.5281/zenodo.14254073](https://doi.org/10.5281/zenodo.14254073)
+  <br><br>
+  > Bilby, M.G. "oga_src: Opera Graeca Adnotata Made Friendly." Release 0.2.0. 2025-04-11. [doi: 10.5281/zenodo.15199546](https://doi.org/10.5281/zenodo.15199546)
+
+# Quo Vademus?
+
+## Analeipsis
+
+  We are coming up on 50 years since the start of computerized morphological tagging of ancient Greek. 
+  
+  When we *look back*, we see how much of that history has centered on our sacred texts. 
+  
+  We scholars of the Jewish and Christian scriptures, and early Christian literature more broadly, are arguably among the most textually obsessive people in the world. 
+  
+  We have been, and we shall continue to be, at the heart of these conversations and related technological advancements.
+
+## Periblepsis
+
+  A lot of academic publishing in early Christianity is focused on traditional modes of print publication, but the academy and the world are changing rapidly. 
+  
+  If we *look around*, we will see that scholarly publishing is undergoing a massive, rapid transformation into new forms of embodiment and curation within a Linked Open Data digital ecosystem. 
+  
+  Our most important, impactful, and lasting contributions may not be traditional print publications, but rather our creative participation in the scholarly networks at the heart of major corpus linguistics projects.
+  
+  The networks spanning Perseus, First1KGreek, Patristic Text Archive, and new teams and initiatives (such as the Scripture Restoration Collective) are growing larger and more connected everyday.
+
+## Autosyneidesis
+
+  Let's listen to our good passions and find ways of channeling our textual obsession to make meaningful contributions to the common good. 
+  
+  Let's be creative yet careful in machine-assisted modes of knowledge creation and curation, which are crucial for downstream analysis and research tasks.
+  
+  We are the ones who bridge the gap between good enough and gold (expert-checked) data, whether in terms of optical character recognition, handwritten character recognition, manuscript transitions, editions, translations, and morphosyntactical annotations.
+
+# Introducing AGDTmini & CATnaPS
+<br><br>
+
+*Goal*
+
+Let's make Greek morphology searches and morphologically tagged corpora simple, accessible, and phenomenologically citable<br>
+
+ - data_code in {{< fa brands github >}} [AGDTmini](https://github.com/nauarchus/AGDTmini)
+ - data_code in {{< fa brands github >}} [CATnaPS](https://github.com/nauarchus/CATnaPS)
+
+# AGDTmini & ATnaPS: <br>at Rest and in Action
+<br><br>
+
+<center>Jupyter Notebook starter demos available in the repository ipynb subfolders!</center>

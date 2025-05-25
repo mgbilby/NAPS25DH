@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: >-
+  Morph-Tags & Authorship(s): DH@NAPS_2025
+type: presentation
+authors:
+  - given-names: Mark
+    family-names: Bilby
+    affiliation: Principal, Clavis Consulting, LLC, Kansas
+    orcid: 'https://orcid.org/0000-0003-0100-6634'
+  - given-names: Jack
+    family-names: Bull
+    affiliation: St Mary's University, Twickenham, London
+    orcid: 'https://orcid.org/0000-0003-4606-239X'
+abstract: >-
+  Morphological tagging of ancient Greek linguistic corpora is approaching 50 years.
+  Notable projects include CCAT/CATSS (1977-), its commercial spinoffs (BibleWorks, 1992-; Logos, 1992-; Accordance, 1994-).
+  PROIEL (2007-), AGDT 1.0 (2009-), AGDT 2.0 (2014-), Pedalion (2019-), GLAUx (2021-), and OGA (2023-).
+  Together with the Diorisis Ancient Greek Corpus (2018-), these projects have built corpora of 10s of millions.
+license: CC-BY-SA-4.0
