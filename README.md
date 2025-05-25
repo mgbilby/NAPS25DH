@@ -7,3 +7,4 @@
 - Outputs: html
 - Date: 2025-05-22
 - License: CC BY-SA 4.0
+- Acknowledgements: Quarto template repurposed from that of A. von Stockhausen @ BBAW
