@@ -235,4 +235,4 @@ Let's make Greek morphology searches and morphologically tagged corpora simple, 
 # AGDTmini & ATnaPS: <br>at Rest and in Action
 <br><br>
 
-<center>Jupyter Notebook starter demos available in the repository ipynb subfolders!</center>
+<center>Jupyter Notebook starter demos available in each repository ipynb subfolders!</center>
