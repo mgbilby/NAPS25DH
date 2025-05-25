@@ -1,4 +1,4 @@
-Title: "Morph-Tags & *Authorship(s)*
+Title: "Morph-Tags & *Authorship(s)*"
 
 Authors: 
   - Mark G. Bilby, [orcid](https://orcid.org/0000-0003-0100-6634), Principal, Clavis Consulting, LLC, Kansas
