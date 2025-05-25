@@ -159,7 +159,7 @@ revealjs-plugins:
   - led by Toon van Hall and Alek Keersmaekers @ KU Leuven
   - initial Pedalion release, 119K words (2019)
   - GLAUx demo releases, 13M-27M words (2021)
-  - v1.0 release, 20M words, works (2024-04)
+  - v1.0 release, 20M words (2024-04)
   - largely machine-automated w/ human supervised checks and refinements
   - TEI-XML sources; TEI-XML treebank outputs w/ UTF-8 NFD encoding
 
@@ -232,7 +232,7 @@ Let's make Greek morphology searches and morphologically tagged corpora simple, 
  - data_code in {{< fa brands github >}} [AGDTmini](https://github.com/nauarchus/AGDTmini)
  - data_code in {{< fa brands github >}} [CATnaPS](https://github.com/nauarchus/CATnaPS)
 
-# AGDTmini & ATnaPS: <br>at Rest and in Action
+# AGDTmini & CATnaPS: <br>at Rest and in Action
 <br><br>
 
 <center>Jupyter Notebook starter demos available in each repository ipynb subfolders!</center>
